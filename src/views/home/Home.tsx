@@ -1,5 +1,6 @@
 import { Counter } from './sections/counter';
 import { Hero } from './sections/hero';
+import { WeDo } from './sections/we-do';
 import { WeOffer } from './sections/we-offer';
 
 export const Home = () => {
@@ -8,6 +9,7 @@ export const Home = () => {
       <Hero />
       <Counter />
       <WeOffer />
+      <WeDo />
     </>
   );
 };
