@@ -16,23 +16,21 @@ export const Counter = () => {
               index === 0
                 ? ''
                 : `
-                before:content-[""]
+                before:content-['']
                 before:block
+                before:rounded-lg
+                before:bg-gray-300
                 before:w-1/2
                 before:h-px
                 before:mx-auto
                 before:mb-4
-                before:rounded-lg
-                before:bg-gray-300
-
                 md:before:absolute
-                md:before:left-0
                 md:before:top-1/4
+                md:before:left-0
                 md:before:w-px
                 md:before:h-3/4
-                md:before:mx-0
-                md:before:mr-4
                 md:before:mb-0
+                md:before:mx-0
               `
             }
           `}
