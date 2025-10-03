@@ -16,7 +16,7 @@ export const OurFeatures = () => {
         <Image width={500} height={500} src={imageHero.src} alt='Hero Image' />
       </div>
       <div className='md:max-w-lg'>
-        <h1 className='text-2xl font-semibold lg:text-4xl'>
+        <h1 className='text-2xl font-semibold md:text-4xl'>
           Get all the features you need to grow your business
         </h1>
         <p className='text-gray-600 my-4 md:my-6'>
