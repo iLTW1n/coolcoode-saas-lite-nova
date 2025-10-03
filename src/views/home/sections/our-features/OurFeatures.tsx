@@ -1,15 +1,15 @@
 import { Button } from '@/components/button';
 import { ArrowRight, CircleCheckBig } from 'lucide-react';
 import Image from 'next/image';
-import imageHero from '@/assets/illustration/financial-data.svg';
+import imageHero from '@/assets/illustration/data-reports.svg';
 
 const items = [
-  '<strong>Professional layout</strong>',
-  '<strong>Fully responsive design</strong>',
-  '<strong>Amazing looking animations</strong>',
+  '<strong>Bright, modern design</strong>',
+  '<strong>CMs powered blogs</strong>',
+  '<strong>Build quicker than ever before</strong>',
 ];
 
-export const WeDo = () => {
+export const OurFeatures = () => {
   return (
     <div className='container gap-12 py-10 md:flex md:py-20 md:gap-20'>
       <div className='hidden md:flex md:items-center'>
@@ -17,10 +17,10 @@ export const WeDo = () => {
       </div>
       <div className='md:max-w-lg'>
         <h1 className='text-2xl font-semibold lg:text-4xl'>
-          Design and develop faster than ever with Nova
+          Get all the features you need to grow your business
         </h1>
         <p className='text-gray-600 my-4 md:my-6'>
-          Helping your company spread its brand across the web ease and style.
+          Our template has everything your business needs to get started and make a great impression.
         </p>
         <ul className='grid gap-3'>
           {items.map((item, index) => (

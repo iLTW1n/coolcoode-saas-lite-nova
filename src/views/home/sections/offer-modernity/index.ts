@@ -1,0 +1,1 @@
+export { OfferModernity } from './OfferModernity';
