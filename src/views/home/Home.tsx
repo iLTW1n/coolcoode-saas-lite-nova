@@ -1,3 +1,4 @@
+import { ContactUs } from './sections/contact-us';
 import { Counter } from './sections/counter';
 import { Customers } from './sections/customers';
 import { Hero } from './sections/hero';
@@ -16,6 +17,7 @@ export const Home = () => {
       <OfferModernity />
       <OurFeatures />
       <Customers />
+      <ContactUs />
     </>
   );
 };

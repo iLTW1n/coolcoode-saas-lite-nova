@@ -12,7 +12,7 @@ const items = [
 export const OurFeatures = () => {
   return (
     <div className='container gap-12 py-10 md:flex md:py-20 md:gap-20'>
-      <div className='hidden md:flex md:items-center'>
+      <div className='max-w-60 mx-auto mb-4 flex items-center md:max-w-full'>
         <Image width={500} height={500} src={imageHero.src} alt='Hero Image' />
       </div>
       <div className='md:max-w-lg'>
