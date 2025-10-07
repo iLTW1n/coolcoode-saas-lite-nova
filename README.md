@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌌 Nova — CoolCoode SaaS Landing Template
 
-## Getting Started
+**Nova** is a super–simple SaaS landing page built with **Next.js**, **React**, and **Tailwind CSS**.
+It provides the basic structure and design to help you launch or adapt your next SaaS project in minutes.
 
-First, run the development server:
+> ⚡ Part of the [Coolcoode](https://coolcoode.com) collection — minimal templates for modern teams.
 
+---
+
+## ✨ Features
+
+- ⚛️ Built with **Next.js 15** and **React 19**
+- 🎨 Styled using **Tailwind CSS**
+- 📱 Fully responsive design
+- ⚡ Lightweight and fast performance
+- 🧩 Easy to customize and extend
+- 📂 Clean and minimal folder structure
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/iLTW1n/coolcoode-saas-lite-nova.git
+cd nova
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3️⃣ Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) to see your landing live 🚀
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Customization
 
-## Learn More
+Nova is designed to be **a starting point**, not a final product.
+You can easily:
+- Update colors via `app/globals.css`
+- Replace content in `app/page.tsx`
+- Add your own sections or integrations
+- Connect your backend or form handlers
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+coolcoode-saaas-lite-nova/
+├── src/
+│   ├── app/
+|   │   ├── page.tsx         # Main landing content
+|   │   ├── layout.tsx       # Global layout
+│   |   └── globals.css      # Global styles
+|   |
+│   ├── assets/              # Assets (images, icons, etc.)
+│   ├── components/
+│   ├── layout/
+│   └── views/
+|
+├── public/                  # Assets (images, icons, etc.)
+├── package.json
+└── README.md
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Build for Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm start
+```
+
+Your app will be available at [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 💡 License
+
+This template is part of the **Coolcoode Free Collection**.
+You can use it for personal and commercial projects. Attribution is appreciated but not required.
+
+---
+
+## 🌍 More Templates
+
+Explore more templates at **[coolcoode.com](https://coolcoode.com)** —
+Fast, minimal, and ready-to-use landings for modern developers.
