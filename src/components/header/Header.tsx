@@ -21,7 +21,7 @@ export const Header = () => {
   return (
     <header>
       <div className='container flex items-center justify-between h-20'>
-        <div>Nova</div>
+        <h1 className='text-2xl font-bold'>Nova</h1>
         <div className='hidden md:flex md:gap-8'>
           {items.map(item => (
             <Link
